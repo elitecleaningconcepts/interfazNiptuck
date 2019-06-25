@@ -1,0 +1,14 @@
+.menu{
+    background-color:#CCC;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    background: #000;
+}
+
+.menu-item{
+    width:20%;
+    float:left;
+    margin: 10px;
+    text-align: center;
+}
