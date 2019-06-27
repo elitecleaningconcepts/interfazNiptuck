@@ -8,7 +8,7 @@
 }
 
 .menu{
-    width: 101.1%;
+    margin: 0;
 }
 
 .logo-header {
@@ -31,10 +31,6 @@
 	font-size: 1.15rem;
 	width: 80%;
 	margin: 0 auto 2em auto;
-}
-
-.logo-header .logo {
-	margin: 0 auto 1em auto;
 }
 
 .logo-header .btn {
@@ -81,6 +77,12 @@ footer a{
 footer a:hover{
     color: #e24b6c;
     text-decoration: none;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
 }
 
 .redes{
