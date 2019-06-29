@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+body{
+    font-weight: 700 !important;
+}
+
 .logo-header {
 	background-image: url(../img/banner.jpg);
 	background-size: cover;
@@ -47,6 +51,10 @@
 
 .jumbotron{
     background: none;
+}
+
+.bg-primary{
+    background: #e24b6c !important;
 }
 
 .linea{
