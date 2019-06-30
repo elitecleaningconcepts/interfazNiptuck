@@ -69,6 +69,13 @@ body{
   border-radius: 50%;
 }
 
+.avatar-sm {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 .lista-sin-estilo{
     list-style: none;
 }
