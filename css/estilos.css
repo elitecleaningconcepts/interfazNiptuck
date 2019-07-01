@@ -49,12 +49,41 @@ body{
 	-webkit-border-radius: 2px;
 }
 
+.text-image{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.text-on-image{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 1.5em;
+}
+
 .jumbotron{
     background: none;
 }
 
 .bg-primary{
     background: #e24b6c !important;
+}
+
+.text-primary{
+    color: #e24b6c !important;
+}
+
+.border-2{
+    border: solid #198783 5px;
+}
+
+.input-group-text{
+    background: #fff !important;
 }
 
 .linea{
@@ -97,6 +126,8 @@ footer a:hover{
 .redes{
     font-size: 2em;
 }
+
+
 
 @media (min-width: 992px) {
 	.logo-header {
